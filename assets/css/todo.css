@@ -1,0 +1,81 @@
+
+body {
+	height: 100%;
+	background: linear-gradient(to right,#be93c5,#7bc6cc);
+}
+* {
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 600;
+}
+main {
+	width: 350px;
+	margin: 7% auto;
+}
+
+input, ul, header {
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: red;
+	color: white;
+	padding: 5px 15px;
+}
+
+h2 {
+	margin: 0;
+	line-height: 40px;
+}
+header, li, input {
+	margin: 0;
+}
+
+input, li:nth-of-type(even) {
+	background-color: #C9C9C9;
+}
+li:nth-of-type(odd) {
+	background-color: white;
+}
+.completedTodo {
+	color: #60514F;
+	text-decoration: line-through;
+}
+
+span.plus {
+	float: right;
+	color: white;
+}
+span.remove {
+	float: left;
+	margin-right: 5px;
+	color: white;
+	background-color: red;
+	display: none;
+	height: 100%;
+	padding: 0 7px;
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+}
+
+input {
+	padding: 13px 13px 13px 20px;
+	border: 2px solid transparent;
+}
+input:focus {
+	background: #fff;
+	outline: none;
+	border: 2px solid red;
+}
+
+li {
+	padding-left: 15px;
+	line-height: 45px;
+}
